@@ -1,0 +1,24 @@
+# Ambiente Virtual (Sua pasta venv)
+venv/
+.venv/
+env/
+ENV/
+
+# Arquivos temporários do Python e Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Configurações do Flask e Variáveis de Ambiente (Segurança)
+.env
+.flaskenv
+instance/
+
+# Arquivos do Sistema Operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
